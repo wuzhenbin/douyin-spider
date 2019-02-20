@@ -1,10 +1,9 @@
+from collections import OrderedDict
 
-result = {
-    'unique_id': '212',
-    'uid': 'sasa',
-    'nickname': '444',
-}
+a = [{'name':'zhangsan', 'score': 20}, {'name':'lisi', 'score':25}, {'name':'zhangsan', 'score':30}]
+b = OrderedDict()
 
-for item,val in result.items():
-    print(item)
-    print(val)
+for item in a:
+	b.setdefault(item['name'], {**item})
+
+print(list(b.values()))
