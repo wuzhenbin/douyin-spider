@@ -5,8 +5,9 @@ from mitmproxy import ctx
 from utils import *
 
 def response(flow):
-    user_detail_url = 'https://aweme-eagle.snssdk.com/aweme/v1/user'       
-    if flow.request.url.startswith(user_detail_url):
+    user_1 = 'https://api-eagle.amemv.com/aweme/v1/user'
+    user_2 = 'https://aweme-eagle.snssdk.com/aweme/v1/user'       
+    if flow.request.url.startswith(user_1) or flow.request.url.startswith(user_2):
         text = flow.response.text
         data = json.loads(text)
 
@@ -39,7 +40,7 @@ def response(flow):
         if len(lis)>0:
             lis = list(filter(lambda item: 'video' in item, lis))
 
-            video_list = [{ 'url': item['video']['download_addr']['url_list'][0], 'aweme_id': item['aweme_id'] } for item in lis]
+            video_list = [{ 'url': item['video']['play_addr']['url_list'][0], 'aweme_id': item['aweme_id'] } for item in lis]
             uid = data['aweme_list'][0]['author']['uid']
             result = {
                 'video_list': video_list,
