@@ -304,7 +304,14 @@
 			"ratio": "540p",
 			"download_addr": {
 				"uri": "v0200f0e0000bhkl3kmgnco4vjqi6big",
-				"url_list": ["https://aweme-hl.snssdk.com/aweme/v1/play/?video_id=v0200f0e0000bhkl3kmgnco4vjqi6big\u0026line=0\u0026ratio=540p\u0026watermark=1\u0026media_type=4\u0026vr_type=0\u0026test_cdn=None\u0026improve_bitrate=0\u0026logo_name=aweme", "https://aweme-hl.snssdk.com/aweme/v1/play/?video_id=v0200f0e0000bhkl3kmgnco4vjqi6big\u0026line=1\u0026ratio=540p\u0026watermark=1\u0026media_type=4\u0026vr_type=0\u0026test_cdn=None\u0026improve_bitrate=0\u0026logo_name=aweme", "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200f0e0000bhkl3kmgnco4vjqi6big\u0026line=0\u0026ratio=540p\u0026watermark=1\u0026media_type=4\u0026vr_type=0\u0026test_cdn=None\u0026improve_bitrate=0\u0026logo_name=aweme", "https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200f0e0000bhkl3kmgnco4vjqi6big\u0026line=1\u0026ratio=540p\u0026watermark=1\u0026media_type=4\u0026vr_type=0\u0026test_cdn=None\u0026improve_bitrate=0\u0026logo_name=aweme"],
+				"url_list": [
+					"https://aweme-hl.snssdk.com/aweme/v1/play/?video_id=v0200f0e0000bhkl3kmgnco4vjqi6big\u0026line=0\u0026ratio=540p\u0026watermark=1\u0026media_type=4\u0026vr_type=0\u0026test_cdn=None\u0026improve_bitrate=0\u0026logo_name=aweme", 
+
+					"https://aweme-hl.snssdk.com/aweme/v1/play/?video_id=v0200f0e0000bhkl3kmgnco4vjqi6big\u0026line=1\u0026ratio=540p\u0026watermark=1\u0026media_type=4\u0026vr_type=0\u0026test_cdn=None\u0026improve_bitrate=0\u0026logo_name=aweme", 
+
+					"https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200f0e0000bhkl3kmgnco4vjqi6big\u0026line=0\u0026ratio=540p\u0026watermark=1\u0026media_type=4\u0026vr_type=0\u0026test_cdn=None\u0026improve_bitrate=0\u0026logo_name=aweme", 
+
+					"https://api-hl.amemv.com/aweme/v1/play/?video_id=v0200f0e0000bhkl3kmgnco4vjqi6big\u0026line=1\u0026ratio=540p\u0026watermark=1\u0026media_type=4\u0026vr_type=0\u0026test_cdn=None\u0026improve_bitrate=0\u0026logo_name=aweme"],
 				"width": 720,
 				"height": 720
 			},

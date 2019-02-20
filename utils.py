@@ -1,6 +1,6 @@
 
 import sys
-sys.path.append('c:\\users\\yx2018011502\\anaconda3\\lib\\site-packages')
+# sys.path.append('c:\\users\\yx2018011502\\anaconda3\\lib\\site-packages')
 from pymongo import MongoClient
 from collections import OrderedDict
 

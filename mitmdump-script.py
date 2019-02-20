@@ -39,7 +39,7 @@ def response(flow):
         if len(lis)>0:
             lis = list(filter(lambda item: 'video' in item, lis))
 
-            video_list = [{ 'url': item['video']['play_addr']['url_list'][0], 'aweme_id': item['aweme_id'] } for item in lis]
+            video_list = [{ 'url': item['video']['download_addr']['url_list'][0], 'aweme_id': item['aweme_id'] } for item in lis]
             uid = data['aweme_list'][0]['author']['uid']
             result = {
                 'video_list': video_list,
